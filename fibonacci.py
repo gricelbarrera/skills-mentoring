@@ -7,7 +7,7 @@ def fibonacci(n):
     num_1= 1
     num_2 = 1
     
-    for i in range(2, n + 1):
+    for i in range(2, n ):
         num = num_1 + num_2
         num_1 = num_2
         num_2 = num
